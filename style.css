@@ -1,0 +1,105 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Regular.eot');
+    src: url('./fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Montserrat-Regular.woff') format('woff'),
+    url('./fonts/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./fonts/BebasNeue-Regular.eot');
+    src: url('./fonts/BebasNeue-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/BebasNeue-Regular.woff') format('woff'),
+    url('./fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./fonts/Montserrat-Bold.eot');
+    src: url('./fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/Montserrat-Bold.woff') format('woff'),
+    url('./fonts/Montserrat-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Alfa Slab One';
+    src: url('./fonts/AlfaSlabOne-Regular.eot');
+    src: url('./fonts/AlfaSlabOne-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/AlfaSlabOne-Regular.woff') format('woff'),
+    url('./fonts/AlfaSlabOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('./fonts/BebasNeueBold.eot');
+    src: url('./fonts/BebasNeueBold.eot?#iefix') format('embedded-opentype'),
+    url('./fonts/BebasNeueBold.woff') format('woff'),
+    url('./fonts/BebasNeueBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    height: 0;
+}
+header {
+    position: relative;
+    width: 1440px;
+    height: 825px;
+    background: url("./img/Rectangle.png") no-repeat;
+}
+.logo {
+    padding: 53px 57px;
+}
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+}
+.heading p {
+    display: inline-block;
+    margin: 0 59px 23px;
+    padding: 15px 19px 17px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 23.65px;
+    line-height: 0.78;
+    color: #3d2514;
+    border: 3px #3D2514 dashed;
+    text-transform: uppercase;
+}
+
+.heading h1 {
+    margin: 0 59px;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 114.3px;
+    line-height: .9;
+    color: rgb(61, 37, 20);
+    text-shadow: 3.936px 4.528px 0 rgb(255, 255, 255);
+}
+.heading h2 {
+    margin: 0 59px;
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: 56.49px;
+    color: rgb(61, 37, 20);
+    text-shadow: 3.936px 4.528px 0 rgb(255, 255, 255);
+}
+.header-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.promo-image {
+    position: absolute;
+    right: 39%;
+    bottom: 9%;
+}
